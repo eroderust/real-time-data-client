@@ -29,13 +29,6 @@ const onConnect = (client: RealTimeDataClient): void => {
                 //filters: `{"event_slug":"slug"}`, // filters: `{"market_slug":"slug"}
             },
 
-            // rfq
-            {
-                topic: "rfq",
-                type: "*",
-                //filters: `{"event_slug":"slug"}`, // filters: `{"market_slug":"slug"}
-            },
-
             // crypto_prices
             {
                 topic: "crypto_prices",
